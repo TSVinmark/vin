@@ -1,7 +1,74 @@
-H1{
-  color: blue;
-
+/*
+dæmpet rød4: #e3dad8  hvid: #f9fcfb
+dæmpet grøn4: #d8e3d8 grå 4: #e0dfde
+*/
+body{
+  padding-left: 50px;
+}
+caption{
+  font-size: 25px;
+  margin: 30px;
+}
+.start {
+  background-color: #e3dad8;
 }
 
-body {
-  background-color: #FF0000;}
+.midt {
+  background-color: #d8e3d8;
+  margin: 0;
+}
+
+.end {
+  background-color: #e0dfde;
+  margin: 0;
+}
+
+.billedHoved{
+  padding: 5000px;
+}
+
+.førsteBilledKolonne{
+  padding: 20px;
+}
+
+.billedTekst {
+  height: 50px;
+  text-align: center;
+  vertical-align: text-top ;
+}
+
+#vinglas {
+  transform: rotateZ(45deg);
+}
+
+#vinsmaningTabelID{
+  width: 100%;
+  text-align: center;
+}
+.vinsmagningTabel{
+  margin: 50px;
+}
+
+
+/*
+rød: #e43f5a
+lys rød: #f1e4e4
+dæmpet rød1: #d9abb3
+dæmpet rød2: #d4cfd0
+dæmpet rød3: #baa9ad
+dæmpet rød4: #e3dad8
+Mørk rød: #c02739
+mørk rød2: #c65f63
+mørkere rød: #84142d
+mørkest rød: #54123b
+hvid: #f9fcfb
+lysgrøn: #b0eacd
+mørkgørn: #21bf73
+dæmpet grøn1: #b6d9ab
+dæmpet grøn2: #d0d4cf
+dæmpet grøn3: #aabaa9
+dæmpet grøn4: #d8e3d8
+mørkeregrøn: #62a388
+mørkest grøn #055e68
+grå 4: #e0dfde
+*/
